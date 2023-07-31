@@ -1,0 +1,12 @@
+Header,Explanation
+brand_id,Unique identifier of each brand account
+created,Datetime of the brand account creation
+lastActive,Datetime of the brand account's last activity
+planLevel,"Subscription plan meaning: 0 - Free, 1 - Trial, 2 - Search, 3 - Campagin, 9 - Full-service Agency"
+num_sub_user,A brand account can have multiple user accesses. It is the number of sub-users of each brand account. 
+role,The role of the person who sign up on the platform. Autofilled with 'brand' if left blank.
+industry_categories,Industries that each brand are in.
+bantScore,Leads qualification score measured based on brands' answers to the onboarding questions. The higher the better. 
+companySize,Company size info of each brand
+onboarding_stage,Last onboarding stage that each brand saw. 4 means that the brand finished onboarding. 0 means that the brand did not even start the onboarding. 
+country,Country that the brand is located in.
